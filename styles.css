@@ -44,9 +44,11 @@ p.big{
     margin-bottom: 15px;
 
 }
-p.small{
+span > p{
+    text-align: center;
+    margin: 5px;
     font-size:18px;
-    color: #E5E7EB;
+    color: black;
 }
 img{
     width: 200px;
@@ -85,19 +87,15 @@ img{
 }
 .iimg{
     margin-left:0px;
-    border: 4px;
+    border: 2px;
     border-style: solid;
     border-radius: 10px;
-    border-color:#3882F6;
+    border-color:black;
     height:125px;
     width: 125px;
 
 }
 span{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-
     font-size: 18px;
     max-width: 150px;
     color: #1F2937;
@@ -118,6 +116,9 @@ p#quote{
     background-color: #E5E7EB;
     padding: 120px 235px;
     margin: 110px 0px;
+}
+div.quote{
+    margin-bottom: 0;
 }
 
 
