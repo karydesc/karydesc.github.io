@@ -1,1 +1,0 @@
-# karydesc.github.io
